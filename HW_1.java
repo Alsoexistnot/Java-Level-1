@@ -2,7 +2,7 @@
 
 // 1. Создать пустой проект в IntelliJ IDEA и прописать метод main().
 
-public class HW_1 {
+public class HomeWorkOne {
     public static void main(String[] args) {
         System.out.println("Задание № 3");
         System.out.println(taskThree(1.11f, 2.22f, 3.33f, 4.44f));
