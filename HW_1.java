@@ -76,12 +76,12 @@ public class HomeWorkOne {
 // Каждый 4-й год является високосным, кроме каждого 100-го, при этом каждый 400-й – високосный.
 
     static void taskEight(int year){
-        if ((year % 4) == 0) {
-            System.out.println(year + " год високосный.");
-        } else if ((year % 400) == 0){
+        if ((year % 400) == 0) {
             System.out.println(year + " год високосный.");
         } else if ((year % 100) == 0){
-            System.out.println(year + " год не високосный");
+            System.out.println(year + " год не високосный.");
+        } else if ((year % 4) == 0){
+            System.out.println(year + " год високосный");
         } else {
             System.out.println(year + " год не високосный");
         }
