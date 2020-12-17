@@ -42,11 +42,7 @@ public class HomeWorkOne {
 // от 10 до 20 (включительно), если да – вернуть true, в противном случае – false.
 
     static boolean taskFour(int a, int b) {
-        if ((a + b) >= 10 && (a + b) <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return (a + b) >= 10 && (a + b) <= 20;
     }
 
 //5. Написать метод, которому в качестве параметра передается целое число, метод должен напечатать в консоль,
