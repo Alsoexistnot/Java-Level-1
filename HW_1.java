@@ -61,11 +61,7 @@ public class HomeWorkOne {
 // если число отрицательное, и вернуть false если положительное.
 
     static boolean taskSix(int a) {
-        if (a < 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return a<0;
     }
 
 //7. Написать метод, которому в качестве параметра передается строка, обозначающая имя.
